@@ -1,0 +1,141 @@
+.btn-1 {
+    height: 50px;
+    background: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s ease;
+    border-radius: 20px;
+    }
+    .btn-1:hover{
+        background: #fff;
+        box-shadow: 0 0 10px #fff, 0 0 40px
+        #fff, 0 0 80px #fff;
+        transition-delay: 1s;
+        }  
+        .btn-1:hover a{    
+    left: 100%;
+    transition: 1s;
+    }
+    a {
+    text-decoration: none;
+    color: blue;
+    
+    }
+.wrapper{
+    max-width: 60opx;
+    padding: 0 20px;
+}
+.wrapper .parent-tab,
+.wrapper .child-tab{
+margin-bottom: 8px;
+border-radius: 3px;
+box-shadow: 0px 0px 15px rgba(0, 0, 0,0.18);
+}
+.wrapper .parent-tab label,
+.wrapper .child-tab label{
+    background: #007bff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    z-index: 99;
+}
+.wrapper  label span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0 -1px 1px #0056b3;
+}
+.child-tab label span{
+    font-size: 17px;
+}
+.wrapper label .icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    color: #007bff;
+    font-size: 15px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-shadow: 0 -1px 1px #0056b3;
+}
+.parent-tab input:checked ~ label .icon i:before,
+.child-tab input:checked ~ label .icon i:before{
+    content: '\f068';
+}
+.wrapper label .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper .parent-tab .content,
+.wrapper .child-tab .sub-content{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.parent-tab input:checked ~ .content,
+.child-tab input:checked ~ .sub-content{
+    max-height: 100vh;
+}
+.wrapper .parent-tab .content p,
+.wrapper .child-tab .sub-content p {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.tab-3 input:checked ~ .content{
+    padding: 15px 20px;
+}
+.wrapper input{
+    display: none; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #152466;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2b08ee;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+  /* Estilos anteriores... */
+    
+        /* Nuevos estilos para la sección agregada */
+        #digital-services {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(6, 156, 243, 0.1);
+            color: #2541db;
+        }
+
+        #digital-services img {
+            max-width: 100%;
+            height: auto;
+        }

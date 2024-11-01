@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0b207c;
+    color: #f8f8fc;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h3 {
+    color: rgb(24, 9, 9);
+
+}
+h2 {
+color: rgb(17, 10, 10);
+}
+.nav{
+    text-transform: uppercase;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 30px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #0b207c;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0  .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+
+}
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+}
+h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+.content-sau h2{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    
+}
+.content-sau h2 span{
+    background: #141283;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
